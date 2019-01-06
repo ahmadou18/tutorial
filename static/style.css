@@ -1,0 +1,79 @@
+html, body {
+    width: 100%;
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+}
+
+#new, #men, #women {
+    display: flex;
+    background: #D7C7A5;
+}
+
+.txt {
+    width: 20%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .txt-new, .txt-men, .txt-women {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .collection {
+    transform: rotate(-90deg);
+    font-size: 50px;
+  }
+  
+  .photo {
+    width: 30%;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .hidden {
+      overflow: hidden;
+      width: 100%;
+      height: 80vh;
+  }
+
+  .photocontainer {
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .ndphoto {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hidden2 {
+    margin-top: 21%;
+    overflow: hidden;
+    width: 40%;
+    height: 54vh;
+
+}
+
+  .ndphotocontainer {
+      width: 100%;
+      height: 60vh;
+      background-size: cover;
+      background-position: center;
+  }
